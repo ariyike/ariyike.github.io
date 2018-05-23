@@ -1,0 +1,301 @@
+/*Sets background image for entire page*/
+body {
+
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Subtle-Grey-Tileable-Pattern-For-Website-Background.jpg");
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*The following style properties are for the elements within the "Left" class Div*/
+.Left {
+
+	float: left;
+	background: #D8E8F0;
+	padding: 3px;
+	margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	min-width: 200px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.Left p{
+
+	border-bottom-style: inset;
+	border-width: 1px;
+	color: #2f4f4f;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Left a {
+
+	color: #2f4f4f;
+}
+
+/*changes color of menu items when you hover over them*/
+.Left p:hover {
+
+	background-color: #f88379;
+}
+
+/*styling for the Quiz drop down containing links to the quizes*/
+.hoverQuiz {
+
+    display: none;
+    background-color: #D8E8F0;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.allQuizes:hover .hoverQuiz {
+    display: initial;
+}
+
+
+
+/*The following style properties are for the elements within the "Right" class Div*/
+.Right {
+
+	float: right;
+	background: white;
+	padding: 3px;
+	margin-left: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2px;
+	min-width: 1000px;
+	max-width: 1000px;
+	
+}
+
+/*The following style properties are for the elements that make up the title bar at the top of the page*/
+.homeicon {
+
+	clear: left;
+	background: #D8E8F0;
+	margin-top: 5px;
+	min-width: 700px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 70px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.homeicon img {
+
+	vertical-align: middle;
+}
+
+.homeicon2_0{
+
+	margin-top: 0px;
+	background-color: #f88379;
+	min-width: 700px;
+	height: 15px;
+	font-family: 'Pompiere', cursive;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	padding-left: 5px;
+	color: #2f4f4f;
+}
+
+.sign {
+
+	position: absolute;
+	right: 70px;
+}
+
+.sign img {
+
+	border-radius: 100%;
+}
+
+table {
+
+	margin-left: auto;
+	margin-right:auto;
+}
+
+/*The following style properties are for the elements in the module display area*/
+.heading {
+
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #2f4f4f;
+	
+}
+
+.header{
+
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.module img {
+
+	margin: auto;
+	padding: 20px;
+}
+
+.module p {
+
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #2f4f4f;
+
+}
+
+.module{
+
+	background-color: #D8E8F0;
+	height: 250px;
+	width: 200px;
+	border-radius: 10px;
+	color: #2f4f4f;
+}
+
+.modimg{
+
+	display: block;
+}
+
+.module:hover {
+
+	background-color: #f88379;
+}
+
+/*The following style properties are for the elements within the main text area of the Right div*/
+.main p{
+
+	text-align: center;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	font-family: 'Pompiere', cursive;
+	font-size: 25px;
+	color: #2f4f4f;
+}
+
+.main h2 {
+
+	text-align: center;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	font-family: 'Oswald', sans-serif;
+	color: #2f4f4f;
+}
+
+.moduleDropdown{
+
+	width: 100px;
+	margin: auto;
+
+}
+
+.quiz a{
+
+	text-decoration: none;
+	background-color: #D8E8F0;
+	border-radius: 100%;
+	min-height: 200px;
+	min-width: 70px;
+	padding: 50px;
+	margin: 30px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #2f4f4f;
+}
+
+.quiz {
+
+	min-height: 150px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-align: center;
+	max-width: 1000px;
+}
+
+.testify {
+
+	width: 40px;
+    border: 1px none #5F9F9F;
+    height: 70px;
+}
+
+.comment {
+
+	width: 500px;
+    border: 4px double #5F9F9F;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Pompiere', cursive;
+    padding: 5px;
+    font-size: 20px;
+    color: #2f4f4f;
+}
+
+#testimony_paragraph {
+
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #2f4f4f;
+}
+
+.testimony {
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.unsure p{
+
+	border: 1px solid #f88379;
+	border-radius: 60px;
+	background-color: #5F9F9F;
+	height: 20px;
+	width: 300px;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+/*The following style properties are for the elements within the footer of the page*/
+.prefoot{
+
+	margin-bottom: 0px;
+	background-color: #f88379;
+	min-width: 700px;
+	height: 5px;
+}
+
+.footer {
+
+	background-color: #D8E8F0;
+	color: #2f4f4f;
+}
+
+.ftwo , .fone, .fthree{
+
+	padding-left: 80px;
+	padding-right: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.fone p{
+
+	padding: 2px;
+	margin: 2px;
+}

@@ -1,0 +1,108 @@
+/*The following style properties are for the elements that show explanations and answers to the quizes*/
+#Explan1, #Explan2, #Explan3, #Explan4, #Explan5, #Explan6, #Answer1, #Answer2, #Answer3, #Answer4{
+
+	visibility: hidden;
+	font-size: 25px;
+}
+
+/*The following style properties are for the elements that show the total score after quiz is completed*/
+#showScore1, #showScore2, #showScore3{
+
+	visibility: hidden;
+	font-size: 25px;
+	background-color: #D8E8F0;
+}
+
+/*The following style properties are for the elements that make up each of the quizes*/
+.quiz1, .quiz2, .quiz3{
+
+	background-color: #D8E8F0;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.quiz3 input[type="button"] {
+
+	border-radius: 5px;
+	background-color: #f88379;
+}
+
+.quiz3 input[type="text"] {
+
+	border-radius: 5px;
+}
+
+.quiz2 input[type="button"] {
+
+	border-radius: 5px;
+	background-color: #f88379;
+}
+
+.quiz1 input[type="button"] {
+
+	border-radius: 5px;
+	background-color: #f88379;
+}
+
+.quiz1 li{
+
+	padding: 20px;
+	margin: 10px;
+}
+
+.quiz2 li{
+
+	padding: 20px;
+	margin: 10px;
+}
+
+.quiz3 li{
+
+	padding: 20px;
+	margin: 10px;
+}
+
+
+#answerbox {
+
+	min-height: 50px;
+	min-width: 100px;
+	background-color: #f88379;
+	border-radius: 10px;
+}  
+
+/*The following style properties are for the elements that make up the contact form*/
+.contact_form input[type="text"] {
+
+	border-radius: 5px;
+	border-color: #D8E8F0;
+	font-family: 'Raleway', sans-serif;
+}
+.contact_form {
+
+	font-family: 'Raleway', sans-serif;
+	color: #2f4f4f;
+	padding-left: 30px;
+}
+
+.contact_form input[type="submit"] {
+
+	border-radius: 5px;
+	background-color: #f88379;
+	color: #2f4f4f;
+}
+
+.contact_form textarea {
+
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: #2f4f4f;
+}
+
+#contactHead {
+
+	font-family: 'Oswald', sans-serif;
+	color: #2f4f4f;
+	padding-left: 30px;
+}

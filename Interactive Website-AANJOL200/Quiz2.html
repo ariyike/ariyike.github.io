@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<title> Learn With J2:Network Quiz 2 </title>
+	<!--to avoid character encoding not declared error-->
+	<meta charset="utf-8">
+	<link rel="icon" href="ImagesJ2/think.png" sizes="16x16" type="image/png"/>
+	<link rel="stylesheet" href="CSSJ2/J2.css" type="text/css"/>
+	<link rel="stylesheet" href="CSSJ2/Quizes.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+	<script src="ScriptJ2/Quiz2.js"></script>
+
+</head>
+
+<body>
+
+<!--This Div contains the body of my website. I've put it here for easy scaling and styling-->
+<div class="page">
+
+	<!--This Div Contains the sidebar which houses the navigation for the homepage as well as quick links to parts of the website-->
+	<div class="Left">
+		<a href="Home.html"><img src="imagesJ2/think.png" alt="site logo" height="30" width="30"/></a>
+
+		<form> 
+			<input type="search" name="search"> 
+			<button type="submit" name="submit"> <img src="https://www.hullboxoffice.com/site/themes/hbo/svg/search.svg" alt="search icon" height="15" width="15" />
+			</button> 
+		</form>
+
+		<p> <a href="Home.html"> Home </a> </p>
+		<p> <a href="Intro_to_Java.html"> Intro to Programming </a> </p>
+		<p> <a href="Software_Engineering.html"> Software Eng. </a> </p>
+		<p> <a href="Mathematics_For_Computing.html"> Mathematics </a> </p>
+		<p> <a href="Introduction_To_Networks.html"> Intro to Networks </a> </p>
+		<!--This div contains a drop down with links to the Quiz pages for easy access from the menu-->
+		<div class="allQuizes">
+		<p class="Quizzes"> Quizzes </p>
+		<div class="hoverQuiz">
+			<p> Java quiz 1 </p>
+			<p> Java quiz 2 </p>
+			<p> Java quiz 3 </p>
+			<p> Math quiz 1 </p>
+			<p> Math quiz 2 </p>
+			<p> Math quiz 3 </p>
+			<p> <a href="Quiz1.html">Networks quiz 1</a> </p>
+			<p> <a href="Quiz2.html">Networks quiz 2</a> </p>
+			<p> <a href="Quiz3.html">Networks quiz 3</a> </p>
+			<p> Software Eng quiz 1 </p>
+			<p> Software Eng quiz 2 </p>
+			<p> Software Eng quiz 3 </p>
+		</div>
+		</div>
+		<p> Grades </p>
+		<p> <a href="contact_form.html">Contact Tutors</a> </p>
+		<p> __________________________ </p>
+
+		<p> Quicklinks</p>
+		<p> Blog </p>
+		<p> Settings </p>
+		<p> Connect to Youtube </p>
+		<p> About Us </p>
+
+	</div>
+
+
+	<!--This Div contains the main content area of the page. This is where actual information is located-->
+	<div class="Right">
+
+		<div class="homeicon">
+	
+			<div class="sign">
+				<p> <img src="imagesJ2/think.png" alt="site logo" height="50" width="50"/> </p>
+			</div>
+
+		</div>
+
+		<!--breadcrumb navigation-->
+		<p class="homeicon2_0"> <img src="https://png.icons8.com/material/1600/00897B/home" alt="home icon" height="15" width="15"/> <a href="Home.html"> Home</a> > <a href="Introduction_To_Networks.html"> Introduction To Networks </a> > Quiz Two</p>
+
+
+		<h1 class="heading"> Quiz Two </h1>
+
+
+		<!--This Div contains the quiz content area of the page.-->
+		<div class="main">
+
+			<p> Please  pick one answer for each question. You will receive explanations based on whether or not your answers are correct once you click check answer. Only click check answer when you are sure of your answers as you will not be able to edit your answer afterwards! </p>
+
+			<!--form which contains quiz 2-->
+			<form class="quiz2" name="quiz2">
+
+				<fieldset>
+    				<legend>Quiz Two </legend>
+
+						<ol>
+							<!--question 1-->
+							<li>
+								<strong>Following default settings, what is the next step in the router boot sequence after the IOS loads from flash?</strong> <br>
+								<input type="radio" name="quiz_2_q1" value="A">Perform the POST routine. <br>
+								<input type="radio" name="quiz_2_q1" value="B">Locate and load the startup-config file from NVRAM<br>
+								<input type="radio" name="quiz_2_q1" value="C">Load the bootstrap program from ROM.<br>
+								<input type="radio" name="quiz_2_q1" value="D">Load the running-config file from RAM.<br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns1' from my javascript file to check the answer submitted-->
+								<input id="checkans1" type="button" name="checkans1" value="Check Answer" onclick="checkAns1()">
+
+								<!--paragraph which will give feedback for quiz 2 question 1-->
+								<p id="Explan1"> </p>
+							</li>
+		
+							<!--question 2-->
+							<li>
+								<strong>Which command is the first step used to set up secure access to a router through a connection to the console interface?</strong> <br>
+								<input type="radio" name="quiz_2_q2" value="A">interface fastethernet 0/0 <br>
+								<input type="radio" name="quiz_2_q2" value="B">line vty 0 4 <br>
+								<input type="radio" name="quiz_2_q2" value="C">line console 0. <br>
+								<input type="radio" name="quiz_2_q2" value="D">enable secret cisco. <br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns2' from my javascript file to check the answer submitted-->
+								<input id="checkans2" type="button" name="checkans2" value="Check Answer" onclick="checkAns2()">
+
+								<!--paragraph which will give feedback for quiz 2 question 2-->
+								<p id="Explan2"> </p>
+							</li>
+		
+							<!--question 3-->
+							<li>
+								<strong>Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?</strong> <br>
+								<input type="radio" name="quiz_2_q3" value="A">Time-to-Live<br>
+								<input type="radio" name="quiz_2_q3" value="B">Sequence Number<br>
+								<input type="radio" name="quiz_2_q3" value="C">Acknowledgment Number<br>
+								<input type="radio" name="quiz_2_q3" value="D">Differentiated Services <br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns3' from my javascript file to check the answer submitted-->
+								<input id="checkans3" type="button" name="checkans3" value="Check Answer" onclick="checkAns3()">
+
+								<!--paragraph which will give feedback for quiz 2 question 3-->
+							    <p id="Explan3"> </p>
+							</li>
+		
+							<!--question 4-->
+							<li>
+								<strong>What IPv4 header field identifies the upper layer protocol carried in the packet?</strong> <br>
+								<input type="radio" name="quiz_2_q4" value="A">Protocol <br>
+								<input type="radio" name="quiz_2_q4" value="B">Identification <br>
+								<input type="radio" name="quiz_2_q4" value="C">Version <br>
+								<input type="radio" name="quiz_2_q4" value="D">Differentiated Services <br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns4' from my javascript file to check the answer submitted-->
+								<input id="checkans4" type="button" name="checkans4" value="Check Answer" onclick="checkAns4()">
+
+								<!--paragraph which will give feedback for quiz 2 question 4-->
+								<p id="Explan4"> </p>
+							</li>
+		
+							<!--question 5-->
+							<li>
+								<strong>What type of route is indicated by the code C in an IPv4 routing table on a Cisco router?</strong> <br>
+								<input type="radio" name="quiz_2_q5" value="A">static route <br>
+								<input type="radio" name="quiz_2_q5" value="B">default route <br>
+								<input type="radio" name="quiz_2_q5" value="C">directly connected route <br>
+								<input type="radio" name="quiz_2_q5" value="D">dynamic route that is learned through EIGRP <br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns5' from my javascript file to check the answer submitted-->
+								<input id="checkans5" type="button" name="checkans5" value="Check Answer" onclick="checkAns5()">
+
+								<!--paragraph which will give feedback for quiz 2 question 5-->
+								<p id="Explan5"> </p>
+							</li>
+
+							<!--question 6-->
+							<li>
+								<strong>Which statement describes a hardware feature of a Cisco 1941 router that has the default hardware configuration?</strong> <br>
+								<input type="radio" name="quiz_2_q6" value="A">It does not have an AUX port.<br>
+								<input type="radio" name="quiz_2_q6" value="B">It has three FastEthernet interfaces for LAN access. <br>
+								<input type="radio" name="quiz_2_q6" value="C">It has two types of ports that can be used to access the console. <br>
+								<input type="radio" name="quiz_2_q6" value="D">It does not require a CPU because it relies on Compact Flash to run the IOS. <br>
+
+								<!--this is an input of type button to submit the answer for this question. when this is clicked it calls function 'checkAns6' from my javascript file to check the answer submitted-->
+								<input id="checkans6" type="button" name="checkans6" value="Check Answer" onclick="checkAns6()">
+
+								<!--paragraph which will give feedback for quiz 2 question 6-->
+								<p id="Explan6"> </p>
+							</li>
+
+						</ol>
+
+				</fieldset>
+			</form>
+
+			<!--This p element contains the score for the quiz.-->
+			<p id="showScore2"><strong>  </strong></p>
+		</div>
+
+		<!--The following section contains the footer of my page.I've used a table to organise it-->
+		<p class="prefoot">.</p>
+		<div class="footer">
+        	<table>
+    			<tr>
+    				<td class="fone">
+    					<p> Contact US </p>
+    					<p> Become a TA </p>
+    					<p> Discounts </p>
+    					<p> What's New? </p>
+    					<p> Download J2</p>
+    				</td>
+
+   		 			<td class="ftwo">
+   			 			<p> Reach Out To Us </p>
+    					<img class="icons" src="https://www.shareicon.net/data/256x256/2015/08/20/87919_tw_512x512.png" alt="twitter icon" height="25" width="25"/>
+   						<img class="icons" src="https://3.bp.blogspot.com/-2BEKhH9HnuE/WL2WvS7cACI/AAAAAAAApZ4/cT_SX_6fvnQkhIsJUpwBZuvwyVzmImJjQCLcB/s320/facebook512x512.png" alt="facebook icon" height="25" width="25"/>
+    					<img class="icons" src="http://wessexlifts.com/alt/images/youtube.jpg" alt="youtube icon" height="25" width="25"/>
+    					<img class="icons" src="http://www.clker.com/cliparts/5/S/U/Y/A/R/email-icon-hi.png" alt="email icon" height="25" width="25"/>
+    				</td>
+
+   	 				<td class="fthree">
+   	 					<!-- Search box in page footer-->
+    					<form> <input type="search" name="search" value=""> <button type="submit" name="submit"> <img src="https://www.hullboxoffice.com/site/themes/hbo/svg/search.svg" alt="search icon" height="15" width="15" /> </button> </form>
+    				</td>
+
+    			</tr>
+   			</table>
+
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
