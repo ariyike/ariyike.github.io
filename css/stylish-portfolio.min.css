@@ -162,4 +162,8 @@
 }
 
 
-.callout-hitch-themes{padding:15rem 0;background: url(../img/hitch-themes.png);background:url(../img/hitch-themes.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.hitch-main-themes{padding:15rem 0;background: url(../img/hitch-themes.png);background:url(../img/hitch-themes.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.hitch-wireframes{padding:15rem 0;background: url(../img/hitch-wireframes.png);background:url(../img/hitch-wireframes.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.hitch-login{padding:15rem 0;background: url(../img/hitch-login.png);background:url(../img/hitch-login.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.hitch-book{padding:15rem 0;background: url(../img/hitch-book.png);background:url(../img/hitch-book.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.hitch-car-owner{padding:15rem 0;background: url(../img/hitch-car-owner.png);background:url(../img/hitch-car-owner.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
