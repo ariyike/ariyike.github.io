@@ -50,7 +50,23 @@
   color: #fff !important;
 }
 
-.masthead h1, .hitchpage h1{color: #fff !important;font-size:4rem;margin:0;padding:0}
+.tinggpage {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../img/tingg-header.png");
+  background: url("../img/tingg-header.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff !important;
+}
+
+.masthead h1, .hitchpage h1, .tinggpage h1{color: #fff !important;font-size:4rem;margin:0;padding:0}
 
 
  @media (min-width:992px){
@@ -65,7 +81,11 @@
     height: 50vh;
   }
 
- .masthead h1, .hitchpage h1{color: #fff !important;font-size:5.5rem}
+  .tinggpage {
+    height: 50vh;
+  }
+
+ .masthead h1, .hitchpage h1, .tinggpage h1{color: #fff !important;font-size:5.5rem}
 }
 
  #sidebar-wrapper{position:fixed;z-index:2;right:0;width:250px;height:100%;-webkit-transition:all .4s ease 0s;transition:all .4s ease 0s;-webkit-transform:translateX(250px);transform:translateX(250px);background:#1d809f;border-left:1px solid rgba(255,255,255,.1)}
