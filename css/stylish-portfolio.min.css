@@ -120,7 +120,7 @@
 
  .portfolio-item{display:block;position:relative;overflow:hidden;max-width:530px;margin:auto auto 1rem}
 
- .portfolio-item .caption{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;width:100%;background-color:rgba(33,37,41,.2);position:absolute;top:0;bottom:0;z-index:1}
+ .portfolio-item .caption{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%;width:100%;background-color:rgba(33,37,41,.7);position:absolute;top:0;bottom:0;z-index:1}
 
  .portfolio-item .caption .caption-content{color:#fff;margin:auto 2rem 2rem}
 
@@ -130,7 +130,7 @@
 
  @media (min-width:992px){.portfolio-item{max-width:none;margin:0}.portfolio-item .caption{-webkit-transition:-webkit-clip-path .25s ease-out,background-color .7s;-webkit-clip-path:inset(0);clip-path:inset(0)}.portfolio-item .caption .caption-content{-webkit-transition:opacity .25s;transition:opacity .25s;margin-left:5rem;margin-right:5rem;margin-bottom:5rem}.portfolio-item img{-webkit-transition:-webkit-clip-path .25s ease-out;-webkit-clip-path:inset(-1px);clip-path:inset(-1px)}.portfolio-item:hover img{-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}.portfolio-item:hover .caption{background-color:rgba(89,81,20,.9);-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}}
 
- footer.footer{padding-top:5rem;padding-bottom:5rem}
+ footer.footer{padding-top:5rem;padding-bottom:0rem}
 
  footer.footer .social-link{display:block;height:4rem;width:4rem;line-height:4.3rem;font-size:1.5rem;background-color:#F3C84E;-webkit-transition:background-color .15s ease-in-out;transition:background-color .15s ease-in-out;-webkit-box-shadow:0 3px 3px 0 rgba(0,0,0,.1);box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}
 
@@ -187,3 +187,6 @@
 .hitch-login{padding:15rem 0;background: url(../img/hitch-login.png);background:url(../img/hitch-login.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
 .hitch-book{padding:15rem 0;background: url(../img/hitch-book.png);background:url(../img/hitch-book.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
 .hitch-car-owner{padding:15rem 0;background: url(../img/hitch-car-owner.png);background:url(../img/hitch-car-owner.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.tingg-proto-1{padding:15rem 0;background: url(../img/proto-1-3.png);background:url(../img/proto-1-3.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.tingg-proto-2{padding:15rem 0;background: url(../img/proto-4-6.png);background:url(../img/proto-4-6.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.tingg-wireframes{padding:15rem 0;background: url(../img/tingg-wireframes.png);background:url(../img/tingg-wireframes.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
