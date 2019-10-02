@@ -66,7 +66,23 @@
   color: #fff !important;
 }
 
-.masthead h1, .hitchpage h1, .tinggpage h1{color: #fff !important;font-size:4rem;margin:0;padding:0}
+.fishbowlpage {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../img/fishbowl-header.png");
+  background: url("../img/fishbowl-header.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff !important;
+}
+
+.masthead h1, .hitchpage h1, .tinggpage h1, .fishbowlpage h1{color: #fff !important;font-size:4rem;margin:0;padding:0}
 
 
  @media (min-width:992px){
@@ -82,6 +98,10 @@
   }
 
   .tinggpage {
+    height: 50vh;
+  }
+
+  .fishbowlpage {
     height: 50vh;
   }
 
@@ -195,5 +215,6 @@
 .tingg-sitemap{padding:15rem 0;background: url(../img/tingg-sitemap.png);background:url(../img/tingg-sitemap.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
 .colours-fonts{padding:15rem 0;background: url(../img/tingg-font-colours.png);background:url(../img/tingg-font-colours.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
 .hitch-colours-fonts{padding:15rem 0;background: url(../img/hitch-font-colours.png);background:url(../img/hitch-font-colours.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
+.fishbowl-colours-font{padding:15rem 0;background: url(../img/fishbowl-colours-font.png);background:url(../img/fishbowl-colours-font.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
 
 .whitespace-horizontal{padding:5rem 0;background: url(../img/whitespace-horizontal.png);background:url(../img/whitespace-horizontal.png);background-position:center center;background-repeat:no-repeat;background-size:contain}
